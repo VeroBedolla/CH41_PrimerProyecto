@@ -1,0 +1,121 @@
+*{
+    font-family: 'Segoe UI' Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+ }
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    border: hidden;
+ }
+ 
+ 
+ body {
+    background: linear-gradient(#0A667D, #1A2A42, #641616);
+ }
+ th, td {
+    border: 2px solid black;
+    text-align: left;
+    border: hidden;
+ }
+ .descripcion {  /*ancho de la columna*/
+    width: 50%;
+ 
+ 
+ }
+ img {
+    border-radius: 10%;   /* aplicar borde a la imagen*/
+ }
+ 
+ 
+ h1{
+    color: #fff;
+    text-shadow: rgb(170, 74, 74) 5px  2px 4px;  /*nos sirve para sobrear la letra*/
+        text-align: center;
+ }
+ .msg {
+    /*propiedades que tenemos de la fuente*/
+    font-size:70px ;
+    font-style: italic;
+    text-align: center;
+ }
+ 
+ 
+ .content {  /* margen de la tabla*/
+    margin: 5%;
+ }
+ 
+ 
+ .menu{
+    font-size:30px ;
+    font-style: italic;
+    text-align: center;
+    text-decoration: overlines;
+ }
+ button {       /*clase buton solo se queda como ejemplo*/
+    border-radius: 15px;
+    padding: 10px 25px;
+    color: white;
+    background-color: #2920b4;
+    text-align: center;
+    width: auto;
+    font-size: 20px;
+ }
+ 
+ 
+ section {
+    display: flex;
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ 
+ 
+ section img {       /*darle estilo a las imagenes img que estan dentro de la seccion*/
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+ }
+ 
+ 
+ section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+ }
+ .main {      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vw;
+ }
+ 
+ 
+ .btn {               /*para que el boton se ilumine*/
+    color:white;
+    text-decoration: none;
+    width: 12vw;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: .5vw 1vw;
+    transition: all  0.6s ease;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,0.8827906162464986) 8%, rgba(252,70,107,0.7203256302521008) 100%);
+    border-radius: 15px;
+ 
+ 
+ }
+ .btn:hover {
+    box-shadow: 0 0 10px #ff0080, 0 0  40px #ff0080, 0 0 80px #ff0080;
+    background-color: #ff0080;
+ }
+ 
+  
+  .content {  /* margen de la tabla*/
+     margin: 5%;
+  }
+  
